@@ -1,0 +1,169 @@
+@media screen and (max-width: 550px) {
+    .mobileNav{
+        position: fixed;
+        width: 100dvw;
+        bottom: 0;
+
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: var(--theme-color);
+        padding: 0;
+    }
+
+    .mobileNav a:hover{
+        color: var(--white);
+    }
+
+    .app{
+        margin-bottom: 4.5rem;
+    }
+
+    .agents{
+        width: 100%;
+        justify-content: center;
+        transform: scale(.9);
+    }
+
+    .mobileNav a{
+        height: 5rem;
+        width: 100%;
+        display: grid;
+        place-items: center;
+        text-decoration: none;
+        color: unset;
+        color: var(--white);
+    }
+
+    .mobileNav a.active{
+        background-color: rgba(0, 0, 0, .1);
+        box-shadow: -10px 10px 10px rgba(0, 0, 0, .05) inset;
+    }
+
+    .dashboard_page{
+        padding: 1rem;
+    }
+
+    .carousel {
+        overflow-x: auto;
+        gap: 1rem;
+        flex-wrap: nowrap;
+    }
+
+    .carousel .caro-card{
+        overflow-x: auto;
+        flex: 0 0 100%;
+    }
+
+    .navBar .urls{
+        display: none;
+    }
+
+    .navBar{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    .navBar .logo{
+        padding: 1rem;
+    }
+
+    .app .navBar.mb{
+        display: none;
+        background-color: aqua;
+    }
+        
+    .landingPage .hero-section{
+        grid-template-columns: 1fr;
+        grid-template-areas: "second" "first";
+    }
+
+    .mission .p{
+        max-width: 90%;
+    }
+
+    .mission .goal span{
+        font-size: 14px;
+    }
+
+    .second-act .cover-div .img img{
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .second-act .cover-div .hover-text{
+        font-size: 1.25rem;
+        line-height: normal;
+    }
+
+    .mission .goal-card{
+        max-width: 20rem;
+        font-size: 14px;
+    }
+
+    .mission .goal .line{
+        width: 2.25rem;
+    }
+        
+    .landingPage .hero-section section:first-child .large-text::after{
+        content: "";
+        background-image: url("https://interview.sirv.com/icons/icons8-quote-left-100.png");
+        background-repeat: no-repeat;
+        background-size: 3rem;
+        background-position-y: 2rem;
+        background-position-x: 1rem;
+        height: 7rem;
+        width: 7rem;
+        position: absolute;
+        transform: rotate(-2deg);
+        top: -2rem;
+        left: -2.5rem;
+    }
+
+    .landingPage .hero-section section:last-child{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .landingPage .hero-section section:last-child .line img{
+        max-height: 12rem;
+        cursor: pointer;
+    }
+    
+    .contact-us{
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "form";
+        width: 100%;
+        font-size: 14px;
+        padding: 1.5rem;
+    }
+
+    .contact-us .ico{
+        display: none;
+    }
+
+    .landingPage .hero-section{
+        padding: 0 2rem;
+    }
+
+    .landingPage .hero-section section:first-child{
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .landingPage .hero-section section:first-child .large-text{
+        max-width: 100%;
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .landingPage .hero-section section:first-child .p{
+        font-size: 1rem;
+        width: 100%;
+        max-width: unset;
+    }
+    .landingPage .btnxs .btnx{
+        padding: .5rem 1rem;
+    }
+}
