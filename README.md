@@ -5,5 +5,5 @@ I built this web app using React.js for the frontend and PHP to create a rest ap
 [Link to Web App](election-webapp.netlify.app)
 
 ## Libraries Used
-*chart.js
-*react-chartjs-2
+1. chart.js
+2. react-chartjs-2
